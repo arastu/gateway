@@ -14,35 +14,35 @@ class Yekpay extends PortAbstract implements PortInterface
      *
      * @var string
      */
-    protected $serverVerifyUrl = 'https://gate.yekpay.com/api/payment/verify';
+    protected $serverVerifyUrl = 'https://gate.yekpays.com/api/payment/verify';
 
     /**
      * Address of request server
      *
      * @var string
      */
-    protected $requestUrl = 'https://gate.yekpay.com/api/payment/request';
+    protected $requestUrl = 'https://gate.yekpays.com/api/payment/request';
 
     /**
      * Address of gate for redirect
      *
      * @var string
      */
-    protected $gateUrl = 'https://gate.yekpay.com/api/payment/start/';
+    protected $gateUrl = 'https://gate.yekpays.com/api/payment/start/';
 
     /**
      * Address exchange
      *
      * @var string
      */
-    protected $exchangeUrl = 'https://gate.yekpay.com/api/payment/exchange';
+    protected $exchangeUrl = 'https://gate.yekpays.com/api/payment/exchange';
 
     /**
      * Address exchange
      *
      * @var string
      */
-    protected $checkipUrl = 'https://gate.yekpay.com/api/payment/country';
+    protected $checkipUrl = 'https://gate.yekpays.com/api/payment/country';
 
     protected $fromCurrencyCode = 978;
     protected $toCurrencyCode = 978;
