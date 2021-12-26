@@ -1,6 +1,6 @@
 {
-  "name": "hosseinizadeh/gateway",
-  "homepage": "https://github.com/hosseinizadeh/gateway",
+  "name": "arastu/gateway",
+  "homepage": "https://github.com/arastu/gateway",
   "description": "A Laravel package for connecting to all Iranian bank and Paypal with one unique API.",
   "keywords": [
     "laravel",
@@ -33,6 +33,10 @@
   ],
   "license": "MIT",
   "authors": [
+    {
+      "name": "Touhid Arastu",
+      "email": "touhid.arastu@gmail.com"
+    },
     {
       "name": "Hamed Pakdaman",
       "email": "pakdaman.it@gmail.com"
